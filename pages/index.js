@@ -21,7 +21,12 @@ export default function Home({ allPostsData}) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Ari. I'm a web developer with a background in television production. You can contact me on <Link href="https://twitter.com/guywithnosn">Twitter</Link>,<Link href="https://www.linkedin.com/in/ari-bandong/"> LinkedIn</Link> and <Link href="https://github.com/ariband5">GitHub</Link>.</p>Also, check out this<Link href="/crypto"> cryptocurrency tracker</Link> that will help you track the price of any cryptocurrency you want using the Coinbase API.
+        <p> Web Developer from SF Bay Area now living in Denver. </p>
+        <p>You can contact me on <Link href="https://twitter.com/guywithnosn">Twitter</Link> and<Link href="https://www.linkedin.com/in/ari-bandong/"> LinkedIn</Link></p>
+          <p> Don't forget to check out my <Link href="https://github.com/ariband5">GitHub</Link>.</p>
+        
+        <p>Also, check out this <Link href="/crypto"><a>cryptocurrency tracker</a></Link>  that uses the <Link href="https://www.coinbase.com/">Coinbase</Link> API.
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

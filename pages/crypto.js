@@ -59,7 +59,7 @@ export default () => {
       </Head>
       <div className="container">
         <h2 className="headline">Crypto Tracker</h2>
-        <p>Enter symbol then fiat currency to get prices e.g -  DOGE-USD</p>
+        <p>Enter symbol then fiat currency to get prices e.g. -  DOGE-USD</p>
         <div className="rounded-form">
           <input type="text" placeholder="BTC-USD" onChange={handleChange} />
         </div>
