@@ -25,7 +25,7 @@ export default function Home({ allPostsData}) {
         <p>You can contact me on <Link href="https://twitter.com/guywithnosn"><a target="_blank">Twitter</a></Link> and<Link href="https://www.linkedin.com/in/ari-bandong/"><a target="_blank"> LinkedIn</a></Link></p>
           <p> Don't forget to check out my <Link href="https://github.com/ariband5"><a target="_blank">GitHub</a></Link>.</p>
         
-        <p>Also, check out this <Link href="/crypto" target="_blank"><a>cryptocurrency tracker</a></Link>  that uses the <Link href="https://developers.coinbase.com/api/v2"><a target="_blank">Coinbase</a>g</Link> API.
+        <p>Also, check out this <Link href="/crypto" target="_blank"><a>cryptocurrency tracker</a></Link>  that uses the <Link href="https://developers.coinbase.com/api/v2"><a target="_blank">Coinbase</a></Link> API.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
