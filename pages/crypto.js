@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Head from "next/head";
 import fetch from "isomorphic-fetch";
+import Link from "next/link";
+
 
 const COINBASE_BASE_URL = "https://api.coinbase.com/v2";
 
@@ -66,6 +68,7 @@ export default () => {
         <div className="action-box">
           <button onClick={handleSubmit}>Search</button>
         </div>
+        
       </div>
       {/*  */}
       {(error && <h1 className="headline">
@@ -85,6 +88,11 @@ export default () => {
             ))}
           </div>
         ))}
+        <div className="headline">
+          <Link href="/">
+              <a>← Back to home</a>
+          </Link>
+      </div>
     </>
   );
 };
