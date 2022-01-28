@@ -1,1 +1,3 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is my personal webite built with NextJS. 
+
+I'll be posting here occassionally about my journey in to web development, Web 3.0, and the future of work. 
