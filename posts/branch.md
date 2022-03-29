@@ -18,3 +18,5 @@ Version control allows you to track all changes being made, make backups, and ke
 - git pull origin { branch }
 - git status
 
+
+That's a wrap!
